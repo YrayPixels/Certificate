@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+}
+.background{
+    margin:0px;
+    display: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:9;
+    background-color:whitesmoke;
+}
+.logo{
+    position: absolute;
+    z-index:5;
+    background-image: url(../images/logo.png);
+    background-size:100%;
+    background-color:transparent;
+    height: 300px;
+    width: 300px;
+    right: 5rem;
+    top: 4rem;
+    background-repeat: no-repeat;
+}
+.badge{
+    position: relative;
+    z-index: 2;
+    background-image: url(../images/badge.png);
+    background-size: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+    height:200px;
+    width: 150px;
+    left: 7.5rem;
+    top:32rem;
+}
+#rectangle{
+    position:absolute;
+    z-index:2;
+    background-color: #042445;
+    height: 35rem;
+    width: 70px;
+    left: 10rem;
+}
+.triGrey3{ position: absolute;
+    z-index:4;
+    top:45%;
+    right:0px;
+    margin: 0px;
+    border-top: 330px solid transparent;
+    border-right: 170px solid #666666;
+    border-bottom: 0px solid transparent;
+}
+.triGrey2{ position: absolute;
+    z-index:7;
+    top:55%;
+    right:0px;
+    margin: 0px;
+    border-top: 250px solid transparent;
+    border-right: 89px solid #c2c2c2;
+    border-bottom: 0px solid transparent;
+}
+.triGrey1{ position: absolute;
+    z-index:6;
+    top:50%;
+    right:0px;
+    margin: 0px;
+    border-top: 290px solid transparent;
+    border-right: 136px solid #b3b3b3;
+    border-bottom: 0px solid transparent;
+}
+.triRed{ position: absolute;
+    z-index:5;
+    right:0px;
+    top:50%;
+    height:0;
+    border-top: 400px solid transparent;
+    border-right:120px solid #fe002a;
+    border-bottom: 0px solid transparent; 
+}
+
+.triOxred{ position: absolute;
+    z-index:4;
+    right:0px;
+    top:50%;
+    height:0;
+    border-top: 400px solid transparent;
+    border-right:185px solid #ba001f;
+    border-bottom: 0px solid transparent; 
+}
+
+.trapzBlue{ position: absolute;
+    z-index:3;
+    right:0px;
+    top:77.5%;
+    width:50px;
+    border-right: 110px solid transparent;
+    border-bottom: 180px solid #042445; 
+    border-left: 100px solid transparent;
+}
+h1{ font-size:110px;
+    font-family:sans-serif;
+    color: #dc0021;
+}
+.text{font-family: Arial, sans-serif;
+    line-height:auto;
+    top:10rem;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left: 20rem;
+}
+input{height: 40px;
+    width: 300px;
+    box-shadow:none;
+    border: 0px; 
+    border-bottom: 1px solid black;
+}
+hr{
+    background-color: black;
+}
+#signatures{display:grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align:center;
+}
+#signatures hr{
+    margin-left: 40px;
+    width: 300px; 
+   
+}
+.smallertxt{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
